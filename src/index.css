@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'MazzardH-Black';
+    src: url('../src/assets/fonts/MazzardH-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
