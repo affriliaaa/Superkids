@@ -13,7 +13,8 @@ module.exports = {
       fontSize: {
         'md': '22px',
         'h1': '55px',
-        'h2': '32px'
+        'h2': '48px',
+        'h3': '32px',
       },
       colors: {
         'a-primary': 'rgba(202, 198, 255, 0.1)',
@@ -22,6 +23,8 @@ module.exports = {
         'a-purple': '#6100C1',
         'a-blue': '#6ED2EF',
         'a-navy': '#222F5E',
+        'a-gray': '#878799',
+        'a-light-gray': '#FDFDFF',
 
         'a-green-10': 'rgba(178, 217, 58, 0.1)',
         'a-orange-10': 'rgba(255, 125, 86, 0.1)',

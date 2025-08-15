@@ -1,8 +1,15 @@
+import { useEffect, useState } from "react";
 import Button from "../components/buttons";
 import Label from "../components/label";
 import heroImg from "../images/hero-header.svg"
 
 export default function Hero() {
+    const [fadeIn, setFadeIn] = useState(false);
+
+    useEffect(() => {
+        setFadeIn(true);
+    }, []);
+
     return (
         <section className="pb-170px px-8 bg-a-purple">
             <div className="max-w-hero-container w-full mx-auto">
@@ -15,8 +22,8 @@ export default function Hero() {
                         </div>
                         <Button buttonVar="green">Enroll My Child</Button>
                     </div>
-                    <div>
-                        <img src={heroImg}></img>
+                    <div className={`transition-opacity duration-1000 ease-in ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
+                        <img src={heroImg} className="h-[608px]"></img>
                     </div>
                 </div>
             </div>
