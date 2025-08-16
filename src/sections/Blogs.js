@@ -8,13 +8,14 @@ import blogCraft from "../images/blog-craft.svg"
 import blogHealth from "../images/blog-health.svg"
 import blogFood from "../images/blog-food.svg"
 import blogEducation from "../images/blog-education.svg"
+import Button from "../components/buttons"
 
 
 export default function Blogs() {
     return (
         <section className="bg-a-light-gray px-8">
-            <div className="max-w-container w-full mx-auto">
-                <div className="flex flex-col gap-[82px]">
+            <div className="max-w-container w-full mx-auto pb-16">
+                <div className="flex flex-col gap-[82px] justify-center items-center">
                     <div className="flex flex-col gap-4 justify-center items-center">
                         <Label labelVar="purple" labelSize="small">Blog</Label>
                         <h2 className="font-catamaran font-black text-h2 text-a-navy leading-[54px]">Our Latest <span className="text-a-purple">Articles</span></h2>
@@ -93,6 +94,7 @@ export default function Blogs() {
                         >
                         </Article>
                     </div>
+                    <Button buttonVar="outlineBlue" className="w-auto mx-auto">View More</Button>
                 </div>
             </div>
         </section>
