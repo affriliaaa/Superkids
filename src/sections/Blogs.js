@@ -12,7 +12,7 @@ import blogEducation from "../images/blog-education.svg"
 
 export default function Blogs() {
     return (
-        <section className="bg-a-light-gray px-8">
+        <section className="bg-a-gray px-8">
             <div className="max-w-container w-full mx-auto">
                 <div className="flex flex-col gap-[82px]">
                     <div className="flex flex-col gap-4 justify-center items-center">
