@@ -13,7 +13,7 @@ import Button from "../components/buttons"
 
 export default function Blogs() {
     return (
-        <section className="bg-a-light-gray px-8">
+        <section id="blogs" className="bg-a-light-gray px-8">
             <div className="max-w-container w-full mx-auto pb-16">
                 <div className="flex flex-col gap-[82px] justify-center items-center">
                     <div className="flex flex-col gap-4 justify-center items-center">

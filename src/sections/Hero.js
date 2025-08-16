@@ -11,7 +11,7 @@ export default function Hero() {
     }, []);
 
     return (
-        <section className="pb-170px px-8 bg-a-purple">
+        <section id="hero" className="pb-170px px-8 bg-a-purple">
             <div className="max-w-hero-container w-full mx-auto">
                 <div className="grid grid-cols-2 gap-8">
                     <div className="flex flex-col gap-6 items-start justify-center">

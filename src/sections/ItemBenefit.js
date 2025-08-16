@@ -9,7 +9,7 @@ import Label from "../components/label"
 
 export default function ItemBenefit() {
     return (
-        <section className="bg-a-light-gray px-[125px] py-[142px]">
+        <section id="itemBenefit" className="bg-a-light-gray px-[125px] py-[142px]">
             <div className="mx-auto max-w-container w-full">
                 <div className="flex flex-col gap-[82px] items-start">
                     <div className="flex flex-col gap-4 items-start">

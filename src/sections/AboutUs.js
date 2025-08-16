@@ -4,7 +4,7 @@ import aboutImg from "../images/img-about.svg"
 
 export default function AboutUs() {
     return (
-        <section className="bg-a-light-gray px-8">
+        <section id="aboutUs" className="bg-a-light-gray px-8">
             <div className="mx-auto max-w-container w-full py-[75px]">
                 <div className="grid grid-cols-2 gap-8">
                     <div className="relative flex h-[682px] items-center">

@@ -5,7 +5,7 @@ import studentCounter from "../images/student.svg"
 
 export default function Counter() {
     return (
-        <section className="bg-transparent px-8 py-8">
+        <section id="counter" className="bg-transparent px-8 py-8">
             <div className="mx-auto max-w-container w-full">
                 <div className="grid grid-cols-4 py-16 px-14 bg-a-navy rounded-3xl">
                     <div className="flex flex-col gap-16 justify-center items-center">

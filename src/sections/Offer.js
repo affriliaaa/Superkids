@@ -3,7 +3,7 @@ import bottomArrow from "../images/ic-dropdown.svg"
 
 export default function Offer() {
     return (
-        <section className="relative h-[216px] bg-a-light-gray">
+        <section id="offer" className="relative h-[216px] bg-a-light-gray">
             <div className="max-w-container w-full mx-auto">
                 <div className="absolute top-[-80px] py-10 px-[69px] rounded-3xl bg-white gap-[21px] shadow-[0_25px_15px_rgba(2, 8, 150, 0.3)]">
                     <div className="flex flex-col gap-8">

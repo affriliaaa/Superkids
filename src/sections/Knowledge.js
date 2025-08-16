@@ -4,7 +4,7 @@ import Label from "../components/label"
 
 export default function Knowledge() {
     return (
-        <section className="bg-white px-8">
+        <section id="knowledge" className="bg-white px-8">
             <div className="mx-auto max-w-container w-full py-[75px]">
                 <div className="grid grid-cols-2 gap-8">
                     <div className="flex flex-col gap-6 items-start justify-center">

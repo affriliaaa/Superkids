@@ -3,7 +3,7 @@ import Label from "../components/label";
 
 export default function Testimonial() {
     return (
-        <section className="bg-a-light-gray px-8">
+        <section id="testimonial" className="bg-a-light-gray px-8">
             <div className="max-w-[1193px] w-full mx-auto py-[125px]">
                 <div className="flex flex-col gap-[82px]">
                     <div className="flex flex-col gap-4 justify-center items-center">
