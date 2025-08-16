@@ -20,7 +20,7 @@ export default function Hero() {
                             <h1 className="font-mazzard text-white text-h1 leading-[55px]">Be a Super <br/>parents for your superkids</h1>
                             <p className="font-lato text-white text-xl font-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam</p>
                         </div>
-                        <Button buttonVar="green">Enroll My Child</Button>
+                        <Button linkBtn="#enroll" buttonVar="green">Enroll My Child</Button>
                     </div>
                     <div className={`transition-all duration-1000 ease-in ${fadeIn ? 'scale-100 opacity-100' : 'scale-40 opacity-0'}`}>
                         <img src={heroImg} className="h-[608px]"></img>

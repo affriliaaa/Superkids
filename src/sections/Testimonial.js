@@ -4,10 +4,10 @@ import Label from "../components/label";
 export default function Testimonial() {
     return (
         <section className="bg-a-light-gray px-8">
-            <div className="max-w-[1193px] w-full mx-auto">
+            <div className="max-w-[1193px] w-full mx-auto py-[125px]">
                 <div className="flex flex-col gap-[82px]">
                     <div className="flex flex-col gap-4 justify-center items-center">
-                        <Label labelVar="orange">Testimonial</Label>
+                        <Label labelSize="small" labelVar="orange">Testimonial</Label>
                         <h2 className="font-catamaran text-h2 font-black leading-[54px] text-a-navy">What’s parent <span className="text-a-orange">Say About Us</span></h2>
                     </div>
                     <div className="grid grid-cols-3 gap-[34px]">

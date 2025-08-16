@@ -1,4 +1,5 @@
 import OfferItem from "../components/offerItem"
+import bottomArrow from "../images/ic-dropdown.svg"
 
 export default function Offer() {
     return (
@@ -17,6 +18,7 @@ export default function Offer() {
                             <OfferItem label="Education" type="education"></OfferItem>
                             <OfferItem label="Toys" type="toys"></OfferItem>
                         </div>
+                        <a href="#" className="w-auto mx-auto"><img src={bottomArrow}/></a>
                     </div>
                 </div>
             </div>
