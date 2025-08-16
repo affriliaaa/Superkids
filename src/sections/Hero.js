@@ -22,7 +22,7 @@ export default function Hero() {
                         </div>
                         <Button buttonVar="green">Enroll My Child</Button>
                     </div>
-                    <div className={`transition-opacity duration-1000 ease-in ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className={`transition-all duration-1000 ease-in ${fadeIn ? 'scale-100 opacity-100' : 'scale-40 opacity-0'}`}>
                         <img src={heroImg} className="h-[608px]"></img>
                     </div>
                 </div>
