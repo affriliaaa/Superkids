@@ -1,7 +1,7 @@
 function FooterLink({link = "#", children}) {
 
     return (
-        <a className="text-sm font-lato" href={link}>{children}</a>
+        <a className="text-sm text-a-gray font-lato" href={link}>{children}</a>
     )
 }
 
