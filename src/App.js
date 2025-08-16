@@ -7,6 +7,7 @@ import Knowledge from "./sections/Knowledge";
 import Testimonial from "./sections/Testimonial";
 import Enroll from "./sections/Enroll";
 import Blogs from "./sections/Blogs";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Testimonial/>
       <Enroll/>
       <Blogs/>
+      <Footer/>
     </div>
   );
 }
